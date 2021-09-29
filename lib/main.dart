@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
         appBar: new AppBar(
           title: new Text('Welcome to Flutter'),
         ),
-        drawer: Drawer(child: Text('侧边栏')),
+        drawer: Drawer(child: Text('左边侧边栏')),
         // 正文
         body: new Center(
             child: Column(
